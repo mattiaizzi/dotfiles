@@ -79,7 +79,8 @@
   },
   "custom/expand-icon": {
     "format": " ",
-    "tooltip": false
+    "tooltip": false,
+    "on-click": "wlogout"
   },
   "tray": {
     "icon-size": 12,
