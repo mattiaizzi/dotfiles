@@ -22,6 +22,8 @@ vim.schedule(function()
 end)
 
 vim.o.breakindent = true
+vim.opt.autoindent = true
+vim.opt.smartindent = true
 
 vim.o.undofile = true
 
