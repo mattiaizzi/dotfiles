@@ -129,7 +129,7 @@ return {
 			local servers = {
 				clangd = {},
 				gopls = {},
-				-- ts_ls = {},
+				ts_ls = {},
 				lua_ls = {
 					settings = {
 						Lua = {
@@ -154,6 +154,8 @@ return {
 				"gofumpt",
 				"goimports",
 				"golines",
+				"eslint_d",
+				"prettier",
 			})
 			require("mason-tool-installer").setup({ ensure_installed = ensure_installed })
 
