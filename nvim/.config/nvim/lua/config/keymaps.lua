@@ -13,7 +13,6 @@ map("n", "<C-u>", "<C-u>zz")
 map("n", "n", "nzzzv")
 map("n", "N", "Nzzzv")
 
-map("n", "<leader>e", "<cmd>Explore<CR>", { desc = "File explorer" })
 map("n", "<leader>q", vim.diagnostic.setloclist, { desc = "Diagnostics list" })
 
 vim.api.nvim_create_autocmd("LspAttach", {
